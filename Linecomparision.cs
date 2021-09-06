@@ -11,7 +11,11 @@ namespace Line_Comparison
             Console.WriteLine("Welcome to Line Comparison Computation");
 
 
+<<<<<<< HEAD
             //UC_2_equalityOfTwoLines
+=======
+            //UC_3_compareTwoLines
+>>>>>>> UC_3comparisionOfTwoLines
 
             double x1, x2, y1, y2;
             double a1, a2, b1, b2;
@@ -36,6 +40,7 @@ namespace Line_Comparison
             {
                 Console.WriteLine("The Length of two lines is equal.");
             }
+<<<<<<< HEAD
             else
             {
                 Console.WriteLine("The Length of two lines is not equal.");
@@ -47,3 +52,19 @@ namespace Line_Comparison
         }
     }
 }
+=======
+            else if (length1 > length2)
+            {
+                Console.WriteLine("The Length of line 1 is greater than line 2.");
+            }
+            else if (length1 < length2)
+            {
+                Console.WriteLine("The Length of line 1 is lesser than line 2.");
+            }
+
+
+
+        }
+    }
+}
+>>>>>>> UC_3comparisionOfTwoLines
